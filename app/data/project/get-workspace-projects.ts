@@ -1,6 +1,6 @@
 import { db } from "@/lib/db";
 import { userRequired } from "../user/is-user-authenticated";
-import { $Enums, AccessLevel, Prisma } from "@prisma/client";
+import { $Enums, Prisma } from "@prisma/client";
 
 export const getWorkspaceProjectsByWorkspaceId = async (
   workspaceId: string

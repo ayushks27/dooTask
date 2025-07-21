@@ -19,7 +19,7 @@ export const NavProjects = ({
   projects: ProjectProps[];
   workspaceMembers: WorkspaceMembersProps[];
 }) => {
-  const { isMobile, setOpenMobile } = useSidebar();
+  useSidebar();
   const pathname = usePathname();
 
   return (

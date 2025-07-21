@@ -15,7 +15,6 @@ import { cn } from "@/lib/utils";
 import { taskStatusVariant } from "@/utils";
 import { Separator } from "../ui/separator";
 import { ProjectCard } from "./project-card";
-import { DessertIcon } from "lucide-react";
 import { updateTaskPosition } from "@/app/actions/task";
 
 const COLUMN_TITLES: Record<$Enums.TaskStatus, string> = {

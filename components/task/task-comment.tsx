@@ -11,7 +11,6 @@ import { Button } from "../ui/button";
 import { CommentList } from "../project/comment-list";
 import { toast } from "sonner";
 import { postComment } from "@/app/actions/project";
-import { RefreshCcw } from "lucide-react";
 
 type CommentWithUser = Comment & {
   user: User;
@@ -22,7 +21,7 @@ interface TaskCommentsProps {
   comments: CommentWithUser[];
 }
 
-export const TaskComment = ({ taskId, comments }: TaskCommentsProps) => {
+export const TaskComment = ({ comments }: TaskCommentsProps) => {
   const workspaceId = useWorkspaceId();
   const projectId = useProjectId();
   const router = useRouter();

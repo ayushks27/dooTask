@@ -41,7 +41,7 @@ import { Calendar } from "../ui/calendar";
 import { taskStats } from "@/utils";
 import { Textarea } from "../ui/textarea";
 import { toast } from "sonner";
-import { createNewTask, updateTask } from "@/app/actions/task";
+import { updateTask } from "@/app/actions/task";
 
 interface Props {
   project: ProjectProps;

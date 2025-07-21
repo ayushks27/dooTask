@@ -52,7 +52,7 @@ export type TaskFormValues = z.infer<typeof taskFormSchema>;
 
 export const CreateTaskDialog = ({ project }: Props) => {
   const router = useRouter();
-  const [open, setOpen] = useState(false);
+  const [] = useState(false);
   const workspaceId = useWorkspaceId();
   const [pending, setPending] = useState(false);
 

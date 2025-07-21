@@ -1,6 +1,5 @@
 import { cn } from "@/lib/utils";
 import { Progress } from "../ui/progress";
-import { Subtitles } from "lucide-react";
 
 type VariantType = "default" | "success" | "warning" | "inProgress";
 

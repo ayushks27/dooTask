@@ -1,9 +1,6 @@
 "use client";
 
-import { createUser } from "@/app/actions/user";
-import { userSchema, workspaceSchema } from "@/lib/schema";
-import { industryTypesList, roleList } from "@/utils";
-import { countryList } from "@/utils/countriesList";
+import { workspaceSchema } from "@/lib/schema";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
 import { useForm } from "react-hook-form";

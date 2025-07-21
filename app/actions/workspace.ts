@@ -7,7 +7,6 @@ import { db } from "@/lib/db";
 import { generateInviteCode } from "@/utils/get-invite-code";
 import { redirect, RedirectType } from "next/navigation";
 import { $Enums, AccessLevel } from "@prisma/client";
-import { truncateSync } from "fs";
 
 export const createNewWorkspace = async (data: CreateWorkspaceDataType) => {
   try {
