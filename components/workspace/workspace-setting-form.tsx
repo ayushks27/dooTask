@@ -44,7 +44,7 @@ interface DataProps extends Workspace {
 
 export const WorkspaceSettingsForm = ({ data }: { data: DataProps }) => {
   const router = useRouter();
-  const [isLoading, setIsLoading] = React.useState(false);
+  const [, setIsLoading] = React.useState(false);
   const [isPending, setIsPending] = React.useState(false);
   const { isOpen, confirm, handleConfirm, handleCancel, confirmationOptions } =
     useConfirmation();
