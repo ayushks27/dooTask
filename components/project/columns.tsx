@@ -342,7 +342,7 @@ export const myTaskColumns: ColumnDef<TaskTableItem>[] = [
                 </Link>
               </DropdownMenuItem>
               <DropdownMenuItem asChild>
-                delet
+                delete
                 {/* <DeleteTask taskId={row.original.id} /> */}
               </DropdownMenuItem>
             </DropdownMenuContent>
